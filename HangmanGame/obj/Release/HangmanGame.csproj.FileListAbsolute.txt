@@ -1,0 +1,17 @@
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\bin\Release\frm_ListeMots.resx
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\bin\Release\Hangman Game.exe.config
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\bin\Release\Hangman Game.exe.manifest
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\bin\Release\Hangman Game.application
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\bin\Release\Hangman Game.exe
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\bin\Release\Hangman Game.pdb
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\HangmanGame.csproj.AssemblyReference.cache
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\HangmanGame.frm_Accueil.resources
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\HangmanGame.frm_ListeMots.resources
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\HangmanGame.frm_ZoneJeu.resources
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\HangmanGame.Properties.Resources.resources
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\HangmanGame.csproj.GenerateResource.cache
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\HangmanGame.csproj.CoreCompileInputs.cache
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\Hangman Game.exe.manifest
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\Hangman Game.application
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\Hangman Game.exe
+C:\Users\mmilli\source\repos\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\CREATE-HANGMAN-GAME-IN-C-WINDOWS-FORM-main\HangmanGame\HangmanGame\HangmanGame\obj\Release\Hangman Game.pdb

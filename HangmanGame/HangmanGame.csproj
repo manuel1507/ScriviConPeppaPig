@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BEE3DE9E-0EF2-4624-AF56-EAC2E2FE0FBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HangmanGame</RootNamespace>
+    <AssemblyName>Hangman Game</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\kamel\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>43C523BF9450AA4387696923A50774BF9CDCC3A4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HangmanGame_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>fondPendu.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_ListeMots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ListeMots.Designer.cs">
+      <DependentUpon>frm_ListeMots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Accueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Accueil.Designer.cs">
+      <DependentUpon>frm_Accueil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ZoneJeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ZoneJeu.Designer.cs">
+      <DependentUpon>frm_ZoneJeu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_Accueil.resx">
+      <DependentUpon>frm_Accueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ListeMots.resx">
+      <DependentUpon>frm_ListeMots.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ZoneJeu.resx">
+      <DependentUpon>frm_ZoneJeu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="HangmanGame_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondPendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perdu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reglePendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titrePendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jouer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deconnexion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro.mkv" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listeMots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_Pendu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondPendu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fondPendu.ico" />
+    <Content Include="Resources\candy_gatto.jpg" />
+    <Content Include="Resources\danny_cane.png" />
+    <Content Include="Resources\emily_elefante.png" />
+    <Content Include="Resources\intro.wav" />
+    <Content Include="Resources\mamma_pig.jpg" />
+    <Content Include="Resources\nonno_pig.png" />
+    <Content Include="Resources\pallone.png" />
+    <Content Include="Resources\pedro_poni.jpg" />
+    <Content Include="Resources\Peppa Pig.mp3" />
+    <Content Include="Resources\peppa.png" />
+    <Content Include="Resources\susy_pecora.png" />
+    <Content Include="Resources\treno.jpg" />
+    <Content Include="Resources\zoe_zebra.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
